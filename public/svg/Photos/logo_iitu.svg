@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.708" height="56.06" viewBox="0 0 117.708 56.06">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.344" cy="0.071" r="1.936" gradientTransform="matrix(0.309, 0.333, -0.036, 0.309, 0.24, -0.065)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ea8181"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_54" data-name="Group 54" transform="translate(-139 -8.361)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="56.5" cy="18.5" rx="56.5" ry="18.5" transform="matrix(0.985, -0.174, 0.174, 0.985, 139, 27.983)" fill="url(#radial-gradient)"/>
+    <text id="IITU" transform="translate(174.806 45.277) rotate(-1)" fill="#ededed" font-size="26" font-family="PTSans-Bold, PT Sans" font-weight="700"><tspan x="0" y="0">IITU</tspan></text>
+  </g>
+</svg>
