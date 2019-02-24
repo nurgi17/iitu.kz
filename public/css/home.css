@@ -1,16 +1,18 @@
+html{
+  overflow-y: hidden; 
+}
 body {
 	font-family: "PT Sans";
 	font-weight: normal;
   margin: 0;
 }
 header{
-  /*background: linear-gradient(to top left, #A2E6FF 0%, #F8A9A9 100%);*/
   background: linear-gradient(to top left, rgba(162, 230, 255, 0.36), rgba(248, 169, 169, 0.36));
 }
 .container {
   	width: 100%;
   	max-width: 1088px;
-  	padding: 0 15px;
+  	padding: 0 auto;
   	margin: 0 auto;
 }
 a{
@@ -32,6 +34,13 @@ a{
 	text-align: left;
 	padding-left: 15px; 
 }
+@media screen and (max-width: 518px){
+  .sha{
+    float: none;
+    width: 100%;
+  }
+}
+
 /*Navbar======================================================================================================================================================*/
 .nav {
   	list-style-type: none;
@@ -63,15 +72,25 @@ a{
   padding: 12px 25px; 
   border-radius: 5px;
 }
+@media screen and (max-width: 600px){
+  .NavList{
+    float: none;
+    width: 100%;
+  }
+  .NavList .apply{
+    margin: 0;
+  }
+}
+
 /*Slider========================================================================================================================================*/
 h1{
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75em;
   margin-top: 120px; 
   margin-bottom: -8px;  
 }
 .text_1{
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;  
   padding-bottom: 25px; 
 }
@@ -79,10 +98,13 @@ h1{
   background-color: #FF8D95;
   font-weight: bold;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 1.25em;
   padding: 12px 100px; 
   border-radius: 5px;
   text-decoration: none;
+}
+#rob{
+  width: 100%;
 }
 /*Content========================================================================================================================================*/
 .main{
@@ -91,7 +113,7 @@ h1{
 }
 h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875em;
 }
   /*Navbar 2 for study programs========================================================================================================================================*/
 .nav1{
@@ -112,13 +134,26 @@ h2{
     padding: 15px 25px;
     border-bottom: 2px solid #EDEDED;
 }
+@media screen and (max-width: 980px){
+  .nav1{
+    margin: 0;
+    overflow: none;
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
   /*Photos with short info about program div====================================================================================================================*/
   .polaroid{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px; 
-    width: 100%;
     background-color: #FFFFFF;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  .polaroid{
+    width: 100%;
+    max-width: 100%;
   }
   .short_info{ 
     font-weight: bold;
@@ -128,6 +163,15 @@ h2{
   .S_P_P th{
     padding-bottom: 38px; 
   }
+  @media screen and (max-width: 1141px){
+    .S_P_P .polaroid{
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width: 1141px){
+
+  }
   /* Teachers divs====================================================================================================================*/
   .info{
     max-width: 332px;
@@ -135,7 +179,7 @@ h2{
     border-bottom: 2px solid #EDEDED;
   }
   .info p{
-    font-size: 14px;
+    font-size: 0.875em;
   }
   /* Blogs divs====================================================================================================================*/
   .Blog{
@@ -149,7 +193,7 @@ h2{
     padding-bottom: 20px;
   }
   .blog_photo{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
     border-radius: 5px;
   }
   .short_info_blog{
@@ -176,7 +220,7 @@ h2{
     width: 222px;
     height: 40px;
     padding-left: 23px; 
-    font-size: 14px;
+    font-size: 0.875em;
   }
   .feedback_form p{
     text-align: center;
@@ -206,6 +250,7 @@ h2{
   }
   .foo_1{
     padding: 0px 72px 0px 40px;
+    width: 100%;
   }
 
   .foo_2{

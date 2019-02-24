@@ -1,0 +1,48 @@
+.head{
+	padding: 80px 0px 115px 0px;
+}
+.container4{
+	max-width: 536px; 
+}
+
+.container4 input{
+    border-radius: 5px;
+    border: 1px solid #E6E5E5;
+    width: 536px;
+    height: 40px;
+    padding-left: 23px; 
+    font-size: 0.875em;
+}
+.container4 textarea{
+    border-radius: 5px;
+    border: 1px solid #E6E5E5;
+    width: 556px;
+    height: 224px;
+    font-size: 0.875em;
+}
+.container4 select{
+    border-radius: 5px;
+    border: 1px solid #E6E5E5;
+    width: 260px;
+    height: 40px;
+    font-size: 0.875em;
+}
+.container4 button{
+	border-radius: 5px;
+    background-color: #FF8D95;
+    color: #FFFFFF;
+    width: 260px;
+    height: 40px;
+    border: 1px solid #FF8D95;
+    font-size: 16px;
+    font-weight: bold;
+}
+.prom_stu{
+	float: right;
+	max-width: 352px;
+}
+.student img{
+	width: 352px;
+	height: 211px;
+	border-radius: 5px;
+}

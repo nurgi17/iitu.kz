@@ -1,0 +1,99 @@
+  /* Study Programs Page====================================================================================================================*/
+h2{
+	text-align: center;
+}
+
+.nav1{
+    list-style-type: none;
+    margin-left: 221px;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.SPL{
+  float: left;
+}
+.SPL a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #343434;
+    padding: 15px 25px;
+    border-bottom: 2px solid #EDEDED;
+}
+
+.polaroid{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+.polaroid{
+    width: 100%;
+  }
+.polaroid img{
+	width: 352px;
+	height: 175.37px;
+}
+.short_info{ 
+    font-weight: bold;
+    margin-left: 30px;
+    padding-bottom: 1px;
+  }
+.S_P_P th{
+    padding-bottom: 38px; 
+  }
+/* Study Programs Content Page====================================================================================================================*/
+h3{
+	font-size: 40px; 
+}
+.container3{
+	max-width: 100%;
+	max-height: 520px;
+	padding: 0 auto;
+    margin: 0 auto;
+    background-image: url("../svg/Photos/sea.jpg");
+    background-position: 75% 25%;
+    color: white;
+}
+.text_con{
+	max-width: 390px;
+	padding: 107px 0px 366px 0px; 
+}
+.text_con ul{
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+.text_con li{
+	float: left;
+	padding-right: 23px;
+}
+.study_info{
+	max-width: 713px;
+}
+.study_info h3{
+	font-size: 20px;
+}
+.short_info3{
+	margin: 0px 42px 9px 19px;
+	padding-bottom: 1px; 
+}
+.choose_program{
+  background-color: #FF8D95;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 11px 74px; 
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

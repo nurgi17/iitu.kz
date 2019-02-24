@@ -1,0 +1,234 @@
+html{
+  overflow-y: hidden; 
+}
+body {
+	font-family: "PT Sans";
+	font-weight: normal;
+  	margin: 0;
+}
+header{
+	background-color: #FFFFFF;
+}
+.container {
+  	width: 100%;
+  	max-width: 1088px;
+  	padding: 0 auto;
+  	margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #343434;
+}
+/*Logo======================================================================================================================================================*/
+#logo_iitu{
+	margin-top: 8.36px;
+	float: left;
+}
+/* Header with information===================================================================================================================================*/
+.sha {
+	margin-top: 15px; 
+	margin-bottom: 9px;
+	float: right;
+}
+.sha tr,th,td{
+	text-align: left;
+	padding-left: 15px; 
+}
+@media screen and (max-width: 518px){
+  .sha{
+    float: none;
+    width: 100%;
+  }
+}
+
+/*Navbar======================================================================================================================================================*/
+.nav {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #FFFFFF;
+  	width: 100%;
+  	border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.NavList {
+  	float: left;
+}
+.NavList a {
+  	display: block;
+  	color: #343434;
+  	text-align: center;
+  	padding: 22px 30px 20px 34px;
+  	text-decoration: none;
+}
+
+.NavList .apply{
+  background-color: #FF8D95;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-right: 19px;
+  margin-top: 9px; 
+  padding: 12px 25px; 
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px){
+  .NavList{
+    float: none;
+    width: 100%;
+  }
+  .NavList .apply{
+    margin: 0;
+  }
+}
+  /* Content Blog News====================================================================================================================*/
+h2{
+	font-size: 1.875em;
+}
+.News{
+	max-width: 812px;
+}
+.polaroid{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 352px;
+  }
+.polaroid img{
+	width: 352px;
+	height: 225px;
+	border-top-right-radius: 5px; 
+	border-top-left-radius: 5px;
+}
+.short_info{
+	margin: 0px 42px 9px 19px;
+}
+.btn_arts{
+	padding: 6px 17px;
+	border: 2px solid #EDEDED;  
+	margin-left: 19px;
+	border-radius: 5px;  
+}
+.btn_date p{
+	margin-left: 253px; 
+	padding-bottom: 18px; 
+	margin-top: -18px; 
+}
+
+.polaroid1{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 444px; 
+  }
+.polaroid1 img{
+	width: 444px;
+	height: 184.12px;
+	border-top-right-radius: 5px; 
+	border-top-left-radius: 5px;
+}
+.short_info1{
+	margin: 0px 40px 8px 16px;
+}
+.btn_date1 p{
+	margin-left: 350px; 
+	padding-bottom: 18px; 
+	margin-top: -18px; 
+}
+  /* Helps div====================================================================================================================*/
+.help_div{
+	float: right; 
+}
+.search input{
+    border-radius: 5px;
+    border: 1px solid #E6E5E5;
+    width: 215px;
+    height: 40px;
+    padding-left: 23px; 
+    font-size: 0.875em;
+  }
+  .btn_arts1{
+	padding: 6px 17px;
+	border: 2px solid #EDEDED;  
+	border-radius: 5px;  
+}
+  /* Blog Content page====================================================================================================================*/
+.container1 {
+    width: 100%;
+    max-height: 292px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-image: url("../svg/Photos/sea.jpg");
+    background-position: center left;
+    color: white;
+}
+.container h2{
+  font-size: 40px;
+}
+.pad{
+  padding-bottom: 32px;
+  padding-top: 45px;
+}
+.who_date{
+  max-width: 280px; 
+  margin-bottom: 53px;
+}
+.full_info{
+  max-width: 718px;
+}
+.polaroid2{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; 
+  max-width: 260px;
+  max-height: 202.24px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.polaroid2 img{
+  border-top-right-radius: 5px; 
+  border-top-left-radius: 5px;
+  width: 260px;
+  height: 107.12px;
+}
+.btn_date_2 p{
+  margin-left: 165px; 
+  padding-bottom: 18px; 
+  margin-top: -18px; 
+}
+.related{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.NavList1{
+  float: left;
+  padding: 0px 16px 43.3px 0px; 
+}
+.related_posts{
+  margin-top: 144px;
+}
+/* End of Blog Content page====================================================================================================================*/
+
+/* Footer====================================================================================================================*/
+
+  .f_content{
+    border-top: 2px solid #E6E5E5;
+  }
+  .foo{
+    margin-top:26px; 
+    margin-bottom: 81px;
+  }
+  .foo_1{
+    padding: 0px 72px 0px 40px;
+    width: 100%;
+  }
+
+  .foo_2{
+    padding: 0px 72px 0px 40px;
+  }
+

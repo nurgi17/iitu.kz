@@ -1,0 +1,78 @@
+.container6{
+    width: 100%;
+    max-height: 292px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-image: url("../svg/Photos/sea.jpg");
+    background-position: 75% 25%;
+    color: white;
+}
+.container6 p{
+	padding-top: 292px; 
+}
+h3{
+	font-size: 30px;
+}
+.container7 h3{
+	text-align: center;
+}
+.container7 p{
+	text-align: center;
+	margin: 0px 188px 0px 188px; 
+}
+.container8{
+	max-width: 100%;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-image: url("../svg/Photos/Path4.png");
+    margin-bottom: 70px;
+}
+.container9{
+	max-width: 444px;
+	padding: 270px 0px 0px 0px; 
+}
+.rob_01{
+	margin-left: 92px; 
+}
+.rob_02{
+	float: right;
+	max-width: 444px;
+}
+
+.Feedback{
+    margin-top: 158.5px;
+    margin-left: 200px;
+    margin-bottom: 253.5px; 
+  }
+  .Feedback h2{
+  	text-align: center;
+  }
+  .feedback_form{
+    max-width: 245px;
+    max-height: 236px;
+  }
+  .feedback_form input{
+    border-radius: 5px;
+    border: 1px solid #E6E5E5;
+    width: 222px;
+    height: 40px;
+    padding-left: 23px; 
+    font-size: 0.875em;
+  }
+  .feedback_form p{
+    text-align: center;
+  }
+  .feedback_form button{
+    border-radius: 5px;
+    background-color: #FF8D95;
+    color: #FFFFFF;
+    width: 247px;
+    height: 40px;
+    border: 1px solid #FF8D95;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #text_iitu{
+    float: right; 
+  }
