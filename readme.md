@@ -1,4 +1,5 @@
 This is the code of designing the new updated website for my university IITU design by <strong>Madina Saparbaeva</strong>
+(<strong>not responsive</strong>)
 
 <strong>Home page</strong>
 <p align="center"><img src="https://github.com/nurgi17/iitu.kz/blob/master/h1.png"></p>
